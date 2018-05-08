@@ -440,5 +440,192 @@
         },
         "DefType": "HELPER",
         "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000013twaCAA"
+        },
+        "Id": "0Adf40000013twaCAA",
+        "AuraDefinitionBundleId": "0Abf4000000JArKCAW",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000JArKCAW"
+            },
+            "DeveloperName": "formsubmit"
+        },
+        "DefType": "EVENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000013ui8CAA"
+        },
+        "Id": "0Adf40000013ui8CAA",
+        "AuraDefinitionBundleId": "0Abf4000000JB3BCAW",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000JB3BCAW"
+            },
+            "DeveloperName": "boatselect"
+        },
+        "DefType": "EVENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000013utFCAQ"
+        },
+        "Id": "0Adf40000013utFCAQ",
+        "AuraDefinitionBundleId": "0Abf4000000JB7ACAW",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000JB7ACAW"
+            },
+            "DeveloperName": "BoatDetails"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000013utUCAQ"
+        },
+        "Id": "0Adf40000013utUCAQ",
+        "AuraDefinitionBundleId": "0Abf4000000JB7ACAW",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000JB7ACAW"
+            },
+            "DeveloperName": "BoatDetails"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000013utPCAQ"
+        },
+        "Id": "0Adf40000013utPCAQ",
+        "AuraDefinitionBundleId": "0Abf4000000JB7ACAW",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000JB7ACAW"
+            },
+            "DeveloperName": "BoatDetails"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000013utKCAQ"
+        },
+        "Id": "0Adf40000013utKCAQ",
+        "AuraDefinitionBundleId": "0Abf4000000JB7ACAW",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000JB7ACAW"
+            },
+            "DeveloperName": "BoatDetails"
+        },
+        "DefType": "STYLE",
+        "Format": "CSS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000013v8jCAA"
+        },
+        "Id": "0Adf40000013v8jCAA",
+        "AuraDefinitionBundleId": "0Abf4000000JBCPCA4",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000JBCPCA4"
+            },
+            "DeveloperName": "boatselected"
+        },
+        "DefType": "EVENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000013vKsCAI"
+        },
+        "Id": "0Adf40000013vKsCAI",
+        "AuraDefinitionBundleId": "0Abf4000000JBG6CAO",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000JBG6CAO"
+            },
+            "DeveloperName": "BoatDetail"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000013vL2CAI"
+        },
+        "Id": "0Adf40000013vL2CAI",
+        "AuraDefinitionBundleId": "0Abf4000000JBG6CAO",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000JBG6CAO"
+            },
+            "DeveloperName": "BoatDetail"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000013vKxCAI"
+        },
+        "Id": "0Adf40000013vKxCAI",
+        "AuraDefinitionBundleId": "0Abf4000000JBG6CAO",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000JBG6CAO"
+            },
+            "DeveloperName": "BoatDetail"
+        },
+        "DefType": "STYLE",
+        "Format": "CSS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000013vKnCAI"
+        },
+        "Id": "0Adf40000013vKnCAI",
+        "AuraDefinitionBundleId": "0Abf4000000JBG6CAO",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000JBG6CAO"
+            },
+            "DeveloperName": "BoatDetail"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
     }
 ]

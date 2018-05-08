@@ -5,18 +5,23 @@
 		<name>ApexClass</name>
 	</types>
 	<types>
+		<members>BoatSearch</members>
+		<members>BoatSearchForm</members>
+		<members>BoatSearchResults</members>
+		<members>BoatTile</members>
+		<members>FriendswithBoats</members>
+		<members>formsubmit</members>
+		<members>boatselect</members>
+		<members>BoatDetails</members>
+		<members>boatselected</members>
+		<members>BoatDetail</members>
+		<name>AuraDefinitionBundle</name>
+	</types>
+	<types>
 		<members>BoatReview__c</members>
 		<members>BoatType__c</members>
 		<members>Boat__c</members>
 		<name>CustomObject</name>
-	</types>
-	<types>
-		<members>BoatSearchForm</members>
-		<members>BoatSearchResults</members>
-		<members>BoatSearch</members>
-		<members>FriendswithBoats</members>
-		<members>BoatTile</members>
-		<name>AuraDefinitionBundle</name>
 	</types>
 	<version>36.0</version>
 </Package>
