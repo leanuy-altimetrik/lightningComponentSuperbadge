@@ -1,0 +1,21 @@
+{
+    "projectName": "Lighting Components Superbadge",
+    "username": "lrodriguez@curious-bear-277664.com",
+    "id": "5677aaa0-52c8-11e8-b8b4-1b0e2c423d5d",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://curious-bear-277664-dev-ed.my.salesforce.com",
+    "workspace": "C:\\Users\\lrodriguez\\Documents",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "AuraDefinitionBundle",
+        "CustomMetadata",
+        "CustomObject",
+        "InstalledPackage",
+        "StaticResource"
+    ]
+}
