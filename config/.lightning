@@ -372,5 +372,73 @@
         },
         "DefType": "HELPER",
         "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000013sIcCAI"
+        },
+        "Id": "0Adf40000013sIcCAI",
+        "AuraDefinitionBundleId": "0Abf4000000JAFXCA4",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000JAFXCA4"
+            },
+            "DeveloperName": "BoatTile"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000013sINCAY"
+        },
+        "Id": "0Adf40000013sINCAY",
+        "AuraDefinitionBundleId": "0Abf4000000JAFXCA4",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000JAFXCA4"
+            },
+            "DeveloperName": "BoatTile"
+        },
+        "DefType": "STYLE",
+        "Format": "CSS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000013sIXCAY"
+        },
+        "Id": "0Adf40000013sIXCAY",
+        "AuraDefinitionBundleId": "0Abf4000000JAFXCA4",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000JAFXCA4"
+            },
+            "DeveloperName": "BoatTile"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf40000013sISCAY"
+        },
+        "Id": "0Adf40000013sISCAY",
+        "AuraDefinitionBundleId": "0Abf4000000JAFXCA4",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000JAFXCA4"
+            },
+            "DeveloperName": "BoatTile"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
     }
 ]

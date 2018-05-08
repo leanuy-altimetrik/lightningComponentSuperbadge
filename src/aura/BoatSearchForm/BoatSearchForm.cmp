@@ -1,4 +1,4 @@
-<aura:component controller="BoatSearchController" access="global" implements="flexipage:availableForAllPageTypes">
+<aura:component controller="BoatSearchController" access="global" implements="force:appHostable,flexipage:availableForAllPageTypes">
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
     <aura:attribute name="boatTypes" type="BoatType__c"/>
     <aura:attribute name="boatTypeId" type="String"/>
@@ -7,13 +7,15 @@
     <!-- <aura:registerEvent name="formsubmit" type="c:FormSubmit"/> -->
 
     <lightning:layout horizontalAlign="center" verticalAlign="end">
-        <lightning:select name="selectBoatType" value="{!v.boatTypeId}" label="">
-            <option value=""></option>
-            <aura:iteration items="{!v.boatTypes}" var="type">
-                <option value="{!type.Id}" text="{!type.Name}"/>
-            </aura:iteration>
-            <option value="all_types">All types</option>
-        </lightning:select>
+        <div style="margin-right: 10px;">
+            <lightning:select name="selectBoatType" value="{!v.boatTypeId}" label="">
+                <option value=""></option>
+                <aura:iteration items="{!v.boatTypes}" var="type">
+                    <option value="{!type.Id}" text="{!type.Name}"/>
+                </aura:iteration>
+                <option value="all_types">All types</option>
+            </lightning:select>
+        </div>
         <lightning:button label="Search" class="slds-m-top_medium" variant="brand" onclick="{!c.onFormSubmit}"/>
         <aura:if isTrue="{!v.createRecordIsSupported}">
             <lightning:button label="New" class="slds-m-top_medium" onclick="{!c.newBoat}" variant="neutral"/>

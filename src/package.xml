@@ -15,6 +15,7 @@
 		<members>BoatSearchResults</members>
 		<members>BoatSearch</members>
 		<members>FriendswithBoats</members>
+		<members>BoatTile</members>
 		<name>AuraDefinitionBundle</name>
 	</types>
 	<version>36.0</version>
