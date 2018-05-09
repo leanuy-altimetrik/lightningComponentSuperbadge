@@ -1,8 +1,10 @@
 <aura:component >
     <aura:attribute name="boat" type="Boat__c" />
     <aura:attribute name="selected" type="Boolean" default="false"/>
-    <aura:registerEvent name="boatSelect" type="c:BoatSelect"/>
-    <aura:registerEvent name="boatSelected" type="c:BoatSelected"/>
+    <aura:registerEvent name="boatSelect" type="c:boatselect"/>
+    <aura:registerEvent name="boatSelected" type="c:boatselected"/>
+    <aura:registerEvent name="PlotMapMarker" type="c:PlotMapMarker"/>
+
     <!-- <aura:registerEvent name="plotMapMarker" type="c:PlotMapMarker"/> -->
 
     <lightning:button class="{!v.selected?'tile selected':'tile'}" onclick="{!c.onBoatClick}" >

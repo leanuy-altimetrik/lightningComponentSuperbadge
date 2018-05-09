@@ -1,5 +1,5 @@
 <aura:component access="global" implements="flexipage:availableForAllPageTypes" >
-    <aura:handler name="formsubmit" event="c:FormSubmit" action="{!c.onFormSubmit}"/>
+    <aura:handler name="formsubmit" event="c:formsubmit" action="{!c.onFormSubmit}"/>
 
     <div style="margin-bottom: 10px;">
         <lightning:card title="Find a Boat" >

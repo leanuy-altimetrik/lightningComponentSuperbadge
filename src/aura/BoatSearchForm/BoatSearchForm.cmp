@@ -1,6 +1,6 @@
 <aura:component controller="BoatSearchController" access="global" implements="force:appHostable,flexipage:availableForAllPageTypes">
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
-    <aura:registerEvent name="formsubmit" type="c:FormSubmit"/>
+    <aura:registerEvent name="formsubmit" type="c:formsubmit"/>
     <aura:attribute name="boatTypes" type="BoatType__c"/>
     <aura:attribute name="boatTypeId" type="String"/>
     <aura:attribute name="createRecordIsSupported" type="Boolean" />
